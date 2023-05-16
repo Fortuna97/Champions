@@ -1,0 +1,106 @@
+*{
+    margin:0; /*Zerando as margens*/
+    font-family: Arial; /*Alterando tipo da fonte*/
+    font-weight: normal; /*Peso da fonte*/
+    font-size: 16px ; /*Tamanho da fonte*/
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.header{ /*Classe para estiliziar o cabeçalho*/
+    background-color: #162E58; /*Alterando a cor da div*/
+    color: white;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header h2{ /*Estilizando o subtitulo da h2*/
+    text-align: center;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.header h1{ /*Estilizando o subtitulo da h2*/
+    padding-top: 1px;
+    padding-left: 40px;
+}
+.grupos, .gols{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+.grupos h3{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px;
+}
+th{
+    color: #70757a;
+}
+td{
+    border-top: 1px solid rgb(240, 240, 240);
+}
+.img-club{
+    width: 24px;
+    height: 24px;
+}
+.left{
+    text-align: left;
+}
+.bl-blue{ /*Classe para inserir borda esquerda*/
+    border-left: 3px solid #4285F4;
+}
+.bl-orange{ /*Classe para inserir borda a esquerda*/
+    border-left: 3px solid #FA7B17;
+}
+.w200{ /*Classe para alterar largura de célula*/
+    width: 200px;
+}
+.gols h2{
+    background-color: #162E58;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.gols h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.img-jogador{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.w40{ /*Classe para largura célula artilheiros*/
+    width: 40px;
+}
+.cartoes{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.cartoes h2{
+    background-color: #162E58;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.w100{
+    width: 100px;
+}
+.img-jogador1{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+}
